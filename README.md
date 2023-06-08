@@ -1,4 +1,19 @@
-# Implementing a Language in C
+# A tiny Language in C
+
+I've been enjoying - and at the same time, struggling with - building programming/scripting languages.  Oh I know C/C++ just fine, that's not the issue... but once you get into ASTs and BNF and the rest of the giant Eye Chart of Nonsensicality, there's so much abstract theory that even experienced programmers like me are likely to react with "Wat?" 🤣
+
+But one amazing geek created a GitHub repo (s/he called it a "post") and in his/her post the author shows us aspiring language programmers how it's done.  But the style is a bit hard to read, comments are few and far between (except for the original "post", which I plan to go over again on a night when I'm less tired, lol) and it just doesn't read well to me.  So my goals here are:
+
+1. Understand this person's code, to see how s/he did it
+2. Clean up the spacing and things so it makes more sense to me
+3. Add comments explaining what's what and how it all works, and
+4. Extend his/her little language to do some new fun stuff. :)
+
+
+
+-------------------------------------------------------------------------
+
+# Original "post"
 
 In this post we're implementing a small programming language in C. The
 language, which I extended from
